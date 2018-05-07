@@ -36,12 +36,13 @@
             maxZoom:17,
             minZoom:9
         });
-
+        map.addControl(new minemap.Navigation(),"bottom-right");
         map.on("click", function (e) {
 
             var lngLat = e.lngLat;
             var point = e.point;
-
+            var features = map.queryRenderedFeatures(e);
+            console.log(features);
             /**
              * 这个获取经纬度有两种方式，lngLat是我们的基本返回对象，用户可以用
              * 1 lngLat.lng 获取经度     lngLat.lat 获取纬度
