@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <title>3D</title>
-    <meta charset="uft-8">
+    <meta charset="utf-8">
     <link rel="stylesheet" href="http://192.168.1.203/minemapapi/v1.3/minemap.css">
     <style>
         html, body, #map {
@@ -17,8 +17,8 @@
     </style>
 </head>
 <body>
-<div id="map"></div>
-<script src="http://192.168.1.203/minemapapi/v1.3/minemap.js"></script>
+<div id="map"><div id="info"></div></div>
+<script src="../minemap.js"></script>
 <script>
 
     window.onload = function(){
@@ -33,9 +33,23 @@
             center: [121.49094,31.21398],
             zoom: 16,
             pitch: 60,
-            maxZoom:16,
+            maxZoom:17,
             minZoom:9
         });
+
+        map.on("click", function (e) {
+
+            var lngLat = e.lngLat;
+            var point = e.point;
+
+            /**
+             * 这个获取经纬度有两种方式，lngLat是我们的基本返回对象，用户可以用
+             * 1 lngLat.lng 获取经度     lngLat.lat 获取纬度
+             * 2 lngLat.toArray()   获取一个数组 [经度，纬度]
+             */
+            document.getElementById("info").innerHTML = ("经纬度坐标：" + lngLat.toArray() + "  像素点坐标：x-" + point.x + ",y-" + point.y);
+
+        })
     }
 </script>
 </body>
