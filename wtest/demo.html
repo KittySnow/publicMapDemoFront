@@ -4,7 +4,7 @@
     <title>3D</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,height=device-height, user-scalable=no,initial-scale=1, minimum-scale=1, maximum-scale=1,target-densitydpi=device-dpi ">
-    <link rel="stylesheet" href="http://192.168.1.203/minemapapi/v1.3/minemap.css">
+    <link rel="stylesheet" href="http://192.168.1.203:82/minemapapi/v1.3/minemap.css">
     <style>
         html, body, #map {
             width: 100%;
@@ -23,14 +23,14 @@
 <script>
 
     window.onload = function(){
-        minemap.domainUrl = '//192.168.1.203';
-        minemap.spriteUrl = '//192.168.1.203/minemapapi/v1.3/sprite/sprite';
-        minemap.serviceUrl = '//192.168.1.203/service';
+        minemap.domainUrl = '//192.168.1.203:82';
+        minemap.spriteUrl = '//192.168.1.203:82/minemapapi/v1.3/sprite/sprite';
+        minemap.serviceUrl = '//192.168.1.203:82/service';
         minemap.accessToken = 'abcc8f7bf4134076b97b671300ca0baa';
         minemap.solution = 4638;
         var map = new minemap.Map({
             container: 'map',
-            style: "//192.168.1.203/service/solu/style/id/4638",
+            style: "//192.168.1.203:82/service/solu/style/id/4638",
             center: [121.49094,31.21398],
             zoom: 16,
             pitch: 60,
