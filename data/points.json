@@ -1,0 +1,17 @@
+[
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "001",
+      "heading": 90,
+      "size": 1,
+      "name": "CM_CN_SHANGHAI_2470190665_B1"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        121.476610,31.227467,-15
+      ]
+    }
+  }
+]

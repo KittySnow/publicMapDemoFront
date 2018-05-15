@@ -1,0 +1,182 @@
+[
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "001",
+      "heading": 90,
+      "size": 1,
+      "name": "CM_CN_SHANGHAI_2470190692_B1"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        121.476610,31.227467,-15
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "002",
+      "heading": 90,
+      "size": 1,
+      "name": "CM_CN_SHANGHAI_2470190693_B1"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        121.476610,31.227467,-15
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "003",
+      "heading": 90,
+      "size": 1,
+      "name": "CM_CN_SHANGHAI_2470190694_B1"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        121.476610,31.227467,-15
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "004",
+      "heading": 90,
+      "size": 1,
+      "name": "CM_CN_SHANGHAI_2470190695_B1"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        121.476610,31.227467,-15
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "005",
+      "heading": 90,
+      "size": 1,
+      "name": "CM_CN_SHANGHAI_2470190704_B1"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        121.476610,31.227467,-15
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "006",
+      "heading": 90,
+      "size": 1,
+      "name": "CM_CN_SHANGHAI_2470190706_B1"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        121.476610,31.227467,-15
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "007",
+      "heading": 90,
+      "size": 1,
+      "name": "CM_CN_SHANGHAI_2470190670_B1"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        121.476610,31.227467,-15
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "008",
+      "heading": 90,
+      "size": 1,
+      "name": "CM_CN_SHANGHAI_2470190671_B1"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        121.476610,31.227467,-15
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "009",
+      "heading": 90,
+      "size": 1,
+      "name": "CM_CN_SHANGHAI_2470190682_B1"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        121.476610,31.227467,-15
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "010",
+      "heading": 90,
+      "size": 1,
+      "name": "CM_CN_SHANGHAI_2470190669_B1"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        121.476610,31.227467,-15
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "011",
+      "heading": 90,
+      "size": 1,
+      "name": "CM_CN_SHANGHAI_2470190668_B1"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        121.476610,31.227467,-15
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "012",
+      "heading": 90,
+      "size": 1,
+      "name": "CM_CN_SHANGHAI_2470190680_B1"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        121.476610,31.227467,-15
+      ]
+    }
+  }
+]
