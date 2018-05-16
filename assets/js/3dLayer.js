@@ -53,7 +53,6 @@ var pointsArr = null;
 
     /*添加地图*/
      map.on("load", function () {
-         map.addControl(new minemap.Navigation(), 'bottom-right');
          map.on('click', function (e) {
              var features = map.queryRenderedFeatures(e.point);
              console.log('0', features, e.lngLat);
